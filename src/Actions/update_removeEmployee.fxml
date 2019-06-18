@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="527.0" prefWidth="1021.0" style="-fx-background-color: #ECCE53;" stylesheets="@../imgs/Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Actions.Update_removeEmployeeController">
+   <children>
+      <Text fill="#bf0000" layoutX="152.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update / Remove Employee" textAlignment="CENTER" wrappingWidth="586.6708984375">
+         <font>
+            <Font name="Impact" size="42.0" />
+         </font>
+      </Text>
+      <Label layoutX="24.0" layoutY="139.0" text="First Name" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="244.0" text="Salary" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="193.0" text="Last name" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="296.0" text="Age" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="456.0" text="Date of birth" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="405.0" text="Address" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="352.0" text="Department" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="408.0" text="mother language" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="455.0" text="other language" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="387.0" layoutY="89.0" prefHeight="0.0" prefWidth="69.0" text="Gender" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="352.0" text="nationality" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="249.0" text="contract start" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="300.0" text="contract end" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="387.0" layoutY="144.0" text="Education" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="195.0" text="Experince" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="first_name" layoutX="148.0" layoutY="139.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="last_name" layoutX="148.0" layoutY="193.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="salary" layoutX="148.0" layoutY="244.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="age" layoutX="146.0" layoutY="296.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="dept" layoutX="146.0" layoutY="352.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="address" layoutX="146.0" layoutY="402.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="otherLang" layoutX="566.0" layoutY="447.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="motherLang" layoutX="564.0" layoutY="403.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="nationality" layoutX="564.0" layoutY="353.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="experince" layoutX="566.0" layoutY="194.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="eduction" layoutX="566.0" layoutY="140.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="gender" layoutX="566.0" layoutY="89.0" prefHeight="31.0" prefWidth="203.0" />
+      <Button layoutX="822.0" layoutY="46.0" mnemonicParsing="false" onAction="#updateEmployee" prefHeight="31.0" prefWidth="162.0" text="Update Emplyee" />
+      <ImageView fitHeight="213.0" fitWidth="218.0" layoutX="803.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/remove.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="822.0" layoutY="415.0" mnemonicParsing="false" onAction="#removeEmployee" prefHeight="31.0" prefWidth="162.0" text="Remove Employee" />
+      <Label layoutX="24.0" layoutY="89.0" text="ID" textFill="#5c3566">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchText" layoutX="74.0" layoutY="88.0" prefHeight="31.0" prefWidth="78.0" />
+      <Button layoutX="176.0" layoutY="84.0" mnemonicParsing="false" onAction="#loadData" text="Find" />
+      <TextField fx:id="constracctStart" layoutX="566.0" layoutY="247.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="constracctEnd" layoutX="566.0" layoutY="301.0" prefHeight="31.0" prefWidth="203.0" />
+      <TextField fx:id="dateOfBirth" layoutX="146.0" layoutY="454.0" prefHeight="31.0" prefWidth="203.0" />
+   </children>
+</AnchorPane>

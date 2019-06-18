@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="591.0" style="-fx-background-color: #ECCE53;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControlPanel.ControlPanelController">
+   <children>
+      <Text fill="#bf0000" layoutX="140.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Control Panel" textAlignment="CENTER" wrappingWidth="315.6708984375">
+         <font>
+            <Font name="Impact" size="42.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="284.0" fitWidth="316.0" layoutX="280.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/login2.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="42.0" layoutY="269.0" mnemonicParsing="false" onAction="#insertEmployee" text="Insert Employee" />
+      <Button layoutX="42.0" layoutY="186.0" mnemonicParsing="false" onAction="#update_delete_emp" text="Update / Delete" />
+      <Button layoutX="42.0" layoutY="106.0" mnemonicParsing="false" onAction="#viewEmployee" text="View Employee" />
+      <MediaView fx:id="mediaVideo" fitHeight="270.0" fitWidth="590.0" layoutY="416.0" />
+   </children>
+</AnchorPane>
